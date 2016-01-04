@@ -46,8 +46,8 @@ it to the repository.
 *`git add`: This command adds files to the index to be committed.
 *`git commit`: This commits the files to be sent to the master repo.
 *`git push origin <branch-name>`: Pushes the commit to the origin repo.
-*`git checkout`: Can either checkout a file to be edited or create a branch to
-  edit or can change branches. Very versatile command.
+*`git checkout`: Can either checkout a file to be edited or change branches.
+*`git reset`: Unstages a commit so it can be modified.
   
 ##What is a pull request and how do you create and merge one?
 
