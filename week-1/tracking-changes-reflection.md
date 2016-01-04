@@ -41,14 +41,15 @@ it to the repository.
 
 ##Write a handy cheatsheet of the commands you need to commit your changes?
 
-*`git status`: This checks the status of the repository and lets the user know
- if anything is waiting to be committed.
-*`git add`: This command adds files to the index to be committed.
-*`git commit`: This commits the files to be sent to the master repo.
-*`git push origin <branch-name>`: Pushes the commit to the origin repo.
-*`git checkout`: Can either checkout a file to be edited or change branches.
-*`git reset`: Unstages a commit so it can be modified.
-  
+- `git status`: This checks the status of the repository and lets the user know
+   if anything is waiting to be committed.
+- `git add`: This command adds files to the index to be committed.
+- `git commit`: This commits the files to be sent to the master repo.
+- `git push origin <branch-name>`: Pushes the commit to the origin repo.
+- `git checkout`: Can either checkout a file to be edited or change branches.
+- `git reset`: Unstages a commit so it can be modified.
+- `git branch`: Allows user to see current branches and create/delete branches.
+
 ##What is a pull request and how do you create and merge one?
 
 From the github website, a pull request is an action that alerts someone in 
