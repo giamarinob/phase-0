@@ -61,4 +61,7 @@ website will be.
 
 I did not find anything tedious about the challenge.
 
-[Site Map](/site-map.png)
+
+
+
+[Site Map](site-map.png)
