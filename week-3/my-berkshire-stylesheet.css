@@ -1,0 +1,141 @@
+/*Text: #000080 (navy)
+Links: #800080 (purple)
+Visited links : #ff0000 (red)
+background: #ffffff (white)*/
+
+body {
+  color: #000080;
+}
+
+a {
+  color: #800080;
+}
+
+a:visited {
+  color: #ff0000;
+}
+
+* {
+  background-color: #ffffff
+}
+
+.bottom-border {
+  border-bottom: thick solid gray;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+header {
+  font: bold;
+  text-align: center;
+
+}
+
+header span
+{
+    display: block;
+}
+
+h1 {
+  font-size:20px;
+  display: inline;
+}
+
+h5
+{
+  font-size:10px;
+  display: inline;
+}
+
+p span {
+  text-align: center;
+  display: block;
+  font-size: .65em;
+}
+
+#comments {
+  font-size: .85em;
+}
+
+.copyright {
+  font-size: .65em;
+}
+
+td
+{
+padding-bottom:30px;
+padding-right:30px;
+
+}
+
+/*td li
+{
+text-align: top;
+
+}*/
+
+table
+{
+  table-layout: fixed;
+  width: 100%;
+  padding-left: 40px;
+}
+
+li span
+{
+display:block;
+margin-left: 15px;
+font-size: 10px;
+font-family: sans-serif;
+margin-top :10px;
+}
+
+/*
+  What is important to know when linking an external file (like a stylesheet) to an HTML file?
+  
+  It's important to know the syntax mostly. You have to understand where the link tag
+  is supposed to be located. You also need to understand how to write shorthand file
+  paths because the style sheets are often going to be in different directories if
+  you're using best practices to keep html files in seperate directories from style
+  sheets. 
+  
+  What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+  
+  I don't think we used tricks per se. One of the techniques I utilize, and it's something
+  I learned outside of this class but something we cover in Object-oriented programming,
+  is to try and modularize the site as much as possible. Break the content down into the smallest
+  bits that you can and use as many tags as possible. This is tedious when writing the 
+  html, but it makes it so much easier to write css and apply it because you can apply
+  the styling rules in a more specific manner. 
+  
+  What CSS did you use to modify the element style (like size, color, etc.)
+  
+  We added bottom borders to elements to create the lines and moved the borders around
+  by manipulating the padding. We modified diplay properties to get elements to display
+  in the manner in which we desired. Then we also did some of the things exampled in the question
+  itself such as font size and color etc.
+  
+  Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+  
+  To start out I will say this. I don't really understand the difference between
+  id's and classes. They are coded the same way with the exception of '#' and '.'.
+  They are assigned the same way as well. Except class is "class=" and id is "id=".
+  This is to say I understand the syntactical (? word) difference between the two and how to apply
+  them, but I do not understand the scemantic difference. 
+  
+  What I do understand is that ID is given precedence over class and that's where it
+  was used. We used ID to override a specific value where we were already assigning a class.
+  That is to say, we used class to broadly assign styling to an element and used
+  ID to override a specific class style in a specific instance, but we still wanted 
+  the class style to apply broadly over the element.
+  
+  When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+  
+  Well we certaintly used better practices because our styling was modularized from
+  the html whereas the original site did their styling in the html. That being said,
+  if they had used best practices with regards to styling it would undoubtedly look 
+  less clumsy than what we've attempted here. The fact that we do not, however, put our styling
+  in the html and we do it in a seperate styling sheet makes the html less cluttered and
+  easier to read in my opinion. 
+  
+*/
