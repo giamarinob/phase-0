@@ -13,6 +13,8 @@ my_info = {
   :age => 28
 }
 
+puts "My name is #{my_info[:first_name]} " + "#{my_info[:last_name]}. I am from #{my_info[:hometown]}
+ and i am #{my_info[:age]} years old."
 
 
 
