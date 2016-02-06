@@ -76,3 +76,25 @@ startup_names = ["bit", ["find", "fast", ["optimize", "scope"]]]
 
 arr = startup_names.join(" ").split(" ")
 arr.each {|name| p name + "ly"}
+
+# Release
+=begin
+What are some general rules you can apply to nested arrays?
+
+=> I'm not really sure to be honest. It's easy for them to become extremely
+=> complicated quickly. Also, enumberales and methods are a must for navigating them
+=> with anything resembling efficiency.
+
+What are some ways you can iterate over nested arrays?
+
+=> The .each method is an obvious example or using loops. There are many methods that
+=> will perform some action on an array that have, as a default, iterating features
+=> built into the method. There are also enumerables that will perform some
+=> function that go through each element in the process. 
+
+Did you find any good new methods to implement or did you re-use one you were already familiar with? What was it and why did you decide that was a good option?
+
+=> The idea to use .join.split is one I'm going to have to rememeber for the future. 
+=> It can flatten an array of n dimensions instead of using flatten which needs to 
+=> know how many dimensions to flatten. 
+=end
