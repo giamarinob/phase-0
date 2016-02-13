@@ -53,6 +53,6 @@ console.log(min(1, -2));
 var me = {
   name: "Ben Giamarino",
   age: 28,
-  3_favorite_foods: ["chicken", "bbq", "ice-cream"],
+  FavoriteFoods: ["chicken", "bbq", "ice-cream"],
   quirk: "I have memorized all the decimal equivalents from 0-1 by the 1/16"
-}
+};
