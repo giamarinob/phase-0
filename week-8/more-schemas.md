@@ -1,14 +1,14 @@
-![Release 2 Schema](/imgs/release-2-schema.png)
+![Release 2 Schema](https://github.com/giamarinob/phase-0/blob/master/week-8/imgs/release-2-schema.png)
 
 This is a one to one relationship because a radio station has a unique call sign 
 and a call sign will refer to a specific radio station. 
 
-![Release 3 Schema](/imgs/release-3-schema.png)
+![Release 3 Schema](https://github.com/giamarinob/phase-0/blob/master/week-8/imgs/release-3-schema.png)
 
 This is a many to many relationship because an investor may be invested in many
 different race horses and an individual race horse may have many different investors. 
 
-![Release 4 Schema](/imgs/release-4-schema.png)
+![Release 4 Schema](https://github.com/giamarinob/phase-0/blob/master/week-8/imgs/release-4-schema.png)
 
 #Reflection
 
