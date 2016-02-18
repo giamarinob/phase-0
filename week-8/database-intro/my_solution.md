@@ -8,7 +8,7 @@
 6. SELECT state\_name, population\_density FROM states WHERE population\_density > 50 ORDER BY population\_density ASC;
 7. SELECT state\_name FROM states WHERE population > 1000000 AND population < 1500000;
 8. SELECT state\_name, region\_id FROM states ORDER BY region\_id ASC;
-9. SELECT region\_name FROM regions WHERE region\_name LIKE '\%central';
+9. SELECT region\_name FROM regions WHERE region\_name LIKE '%central';
 10. SELECT state\_name, region\_name FROM states, regions ORDER BY region\_id ASC;
 
 
