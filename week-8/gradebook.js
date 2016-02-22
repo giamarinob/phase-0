@@ -80,13 +80,26 @@ var average = function(arr){
 // __________________________________________
 // Reflect
 
+// What did you learn about adding functions to objects?
 
+// => I solidified the syntax of adding functions to an object after you've already
+// => created it. I knew how to add a function to an object at the time you created 
+// => the object at the time, but I wasn't sure what the syntax was for adding a
+// => function later.
 
+// How did you iterate over nested arrays in JavaScript?
 
+// => We actually did not iterate over a nested array in our solution. at any given
+// => point in our code we were only dealing with a single dimension of an array. Even
+// => when working with a multi-dimensional array we never did anything with the second
+// => dimension. We only iterated through the upper level to assign the scores to the 
+// => gradebook. We handled the scores themselves as individual arrays with the getAverage
+// => and average functions. 
 
+// Were there any new methods you were able to incorporate? If so, what were they and how did they work?
 
-
-
+// => Yes, we used the reduce function on the array of scores. The function takes a function and
+// => a block of code. In this case we reduced the array by adding the elements of the array. 
 
 // __________________________________________
 // Test Code:  Do not alter code below this line.
